@@ -30,4 +30,6 @@ if (pipePosition <=120 &&pipePosition > 0 && marioPosition <80){
 }
 
 }, 10)
+
+document.addEventListener('click', jump);
 document.addEventListener('keydown', jump);
